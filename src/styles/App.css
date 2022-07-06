@@ -1,0 +1,80 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  background: url('./background.jpg') round;
+}
+
+h2{
+  padding: 15px 0 10px 0;
+  background-color: rgb(7, 1, 88);
+  color: white;
+}
+
+h3{
+  padding-top: 5px;
+}
+
+ul{
+  list-style: none;
+}
+
+img{
+  filter:invert(80%)
+}
+
+button{
+  width: 100px;
+  border: none;
+  border-radius: 50px;
+  margin: 12px 0 18px 0 ;
+  background: rgb(7, 1, 88);
+  color: white;
+  font-size: 1.2rem;
+  padding: 5px 0;
+}
+
+button:hover{
+  color: white;
+  background-color: rgb(153, 0, 102);
+}
+
+footer{
+  position: absolute;
+  bottom: 15px;
+  font-size: 12px;
+  color: rgb(7, 1, 88);
+}
+
+.App {
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-size: 1.1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  text-align: center;
+}
+
+.card{
+  /* background: rgba(2, 19, 94, 0.5); */
+  background: rgba(255, 255, 255, 0.5);
+  color: rgb(7, 1, 88);
+  border-radius: 10px;
+  width: 350px;
+  box-shadow: 8px 8px 20px rgb(0, 0, 0, 0.6);
+}
+
+.temp{
+  font-size: 3.0rem;
+  color: rgb(153, 0, 102);
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+
+.description:hover{
+  color: rgb(153, 0, 102);
+  font-weight: bolder;
+}
